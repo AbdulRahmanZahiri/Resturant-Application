@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Memorial | A Taste of the Atlantic</title>
+    <meta
+      name="description"
+      content="Memorial is a luxury fine-dining restaurant in St. John's, Newfoundland & Labrador. A modern coastal experience inspired by the Atlantic."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="preload">
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Primary">
+        <a class="logo" href="#top" aria-label="Memorial home">
+          <span class="logo-mark">M</span>
+          <span class="logo-text">Memorial</span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <div class="nav-menu" id="nav-menu">
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#reservations">Reservations</a>
+          <a href="#contact">Location</a>
+        </div>
+        <a class="btn btn-ghost" href="#reservations">Reserve</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-ocean" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">St. John's, Newfoundland & Labrador</p>
+          <h1 id="hero-title">Memorial — A Taste of the Atlantic</h1>
+          <p class="lead">Fine dining inspired by Newfoundland & Labrador.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#menu">View Menu</a>
+            <a class="btn btn-ghost" href="#reservations">Reserve a Table</a>
+          </div>
+          <div class="scroll-indicator" aria-hidden="true">
+            <span></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu" id="menu" aria-labelledby="menu-title">
+        <div class="section-header reveal">
+          <p class="eyebrow">Seasonal & Coastal</p>
+          <h2 id="menu-title">Menu</h2>
+          <p>
+            Crafted from the Atlantic's finest ingredients, each course is a tribute to
+            Newfoundland's rugged coastline.
+          </p>
+        </div>
+        <div class="menu-filters" role="tablist" aria-label="Menu categories">
+          <button class="filter active" data-filter="all" role="tab">All</button>
+          <button class="filter" data-filter="starters" role="tab">Starters</button>
+          <button class="filter" data-filter="mains" role="tab">Mains</button>
+          <button class="filter" data-filter="seafood" role="tab">Seafood Specialties</button>
+          <button class="filter" data-filter="desserts" role="tab">Desserts</button>
+          <button class="filter" data-filter="drinks" role="tab">Drinks & Cocktails</button>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-card reveal" data-category="starters">
+            <div class="menu-card-content">
+              <h3>Rocky Harbour Oysters</h3>
+              <p>Smoked mignonette, sea herbs, lemon oil.</p>
+            </div>
+            <span class="price">18</span>
+          </article>
+          <article class="menu-card reveal" data-category="starters">
+            <div class="menu-card-content">
+              <h3>Salt Cod Accras</h3>
+              <p>Preserved lemon aioli, charred scallion.</p>
+            </div>
+            <span class="price">16</span>
+          </article>
+          <article class="menu-card reveal" data-category="mains">
+            <div class="menu-card-content">
+              <h3>Foraged Lamb Saddle</h3>
+              <p>Juniper jus, root vegetable mosaic, spruce tips.</p>
+            </div>
+            <span class="price">42</span>
+          </article>
+          <article class="menu-card reveal" data-category="mains">
+            <div class="menu-card-content">
+              <h3>Black Garlic Duck</h3>
+              <p>Crisp confit, crowberry glaze, barley risotto.</p>
+            </div>
+            <span class="price">40</span>
+          </article>
+          <article class="menu-card reveal" data-category="seafood">
+            <div class="menu-card-content">
+              <h3>Atlantic Halibut</h3>
+              <p>Brown butter, coastal greens, smoked mussel broth.</p>
+            </div>
+            <span class="price">46</span>
+          </article>
+          <article class="menu-card reveal" data-category="seafood">
+            <div class="menu-card-content">
+              <h3>Seared Scallops</h3>
+              <p>Celery root silk, saffron beurre blanc.</p>
+            </div>
+            <span class="price">38</span>
+          </article>
+          <article class="menu-card reveal" data-category="desserts">
+            <div class="menu-card-content">
+              <h3>Partridgeberry Pavlova</h3>
+              <p>Whipped skyr, candied spruce, honeycomb.</p>
+            </div>
+            <span class="price">14</span>
+          </article>
+          <article class="menu-card reveal" data-category="desserts">
+            <div class="menu-card-content">
+              <h3>Dark Chocolate Torte</h3>
+              <p>Sea salt caramel, roasted hazelnut, crème fraîche.</p>
+            </div>
+            <span class="price">15</span>
+          </article>
+          <article class="menu-card reveal" data-category="drinks">
+            <div class="menu-card-content">
+              <h3>Signal Hill Martini</h3>
+              <p>Gin, coastal vermouth, kelp brine.</p>
+            </div>
+            <span class="price">16</span>
+          </article>
+          <article class="menu-card reveal" data-category="drinks">
+            <div class="menu-card-content">
+              <h3>Twilight in Quidi Vidi</h3>
+              <p>Rum, partridgeberry, citrus, sea mist.</p>
+            </div>
+            <span class="price">15</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div class="about-grid">
+          <div class="about-image parallax reveal">
+            <img
+              src="https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&w=1200&q=80"
+              alt="Candle-lit dining room with ocean-inspired decor"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-text reveal">
+            <p class="eyebrow">Our Story</p>
+            <h2 id="about-title">Where the ocean meets the table.</h2>
+            <p>
+              Memorial is inspired by Newfoundland's maritime heritage. Every plate draws
+              from the island's coastal foraging, crisp sea air, and a reverence for local
+              artisans. Our kitchen celebrates the Atlantic's depth — from wild-caught
+              seafood to meadow-grown herbs and berries.
+            </p>
+            <p>
+              Designed as a modern tribute to St. John's, the space blends warmth, light,
+              and sea-swept textures for a refined yet welcoming experience.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience" id="experience" aria-labelledby="experience-title">
+        <div class="section-header reveal">
+          <p class="eyebrow">Experience</p>
+          <h2 id="experience-title">Ambience & Atmosphere</h2>
+          <p>
+            Soft light, sculpted wood, and ocean hues create an intimate sanctuary for
+            modern fine dining.
+          </p>
+        </div>
+        <div class="gallery">
+          <figure class="reveal">
+            <img
+              src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1000&q=80"
+              alt="Elegant dining table set with candles"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="reveal">
+            <img
+              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=80"
+              alt="Chef plating fine dining course"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="reveal">
+            <img
+              src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1000&q=80"
+              alt="Warmly lit restaurant interior"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="reservations" id="reservations" aria-labelledby="reservations-title">
+        <div class="section-header reveal">
+          <p class="eyebrow">Reserve</p>
+          <h2 id="reservations-title">Book Your Table</h2>
+          <p>Evenings are intimate and limited. Reserve in advance to ensure a seat.</p>
+        </div>
+        <form class="reservation-form reveal" id="reservation-form" novalidate>
+          <div class="form-grid">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@email.com" required />
+            </label>
+            <label>
+              <span>Date</span>
+              <input type="date" name="date" required />
+            </label>
+            <label>
+              <span>Time</span>
+              <input type="time" name="time" required />
+            </label>
+            <label>
+              <span>Guests</span>
+              <select name="guests" required>
+                <option value="">Select</option>
+                <option value="2">2 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="6">6 Guests</option>
+                <option value="8">8 Guests</option>
+              </select>
+            </label>
+          </div>
+          <button class="btn btn-primary" type="submit">Confirm Reservation</button>
+          <p class="form-note" aria-live="polite"></p>
+        </form>
+        <div class="form-success" id="form-success" aria-hidden="true">
+          <div class="checkmark"></div>
+          <p>Reservation confirmed. We look forward to hosting you.</p>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="section-header reveal">
+          <p class="eyebrow">Visit</p>
+          <h2 id="contact-title">Location & Contact</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-details reveal">
+            <div>
+              <h3>Address</h3>
+              <p>Harbour Drive, St. John's, NL, Canada</p>
+            </div>
+            <div>
+              <h3>Hours</h3>
+              <p>Tuesday – Sunday</p>
+              <p>5:00 PM – 10:30 PM</p>
+            </div>
+            <div>
+              <h3>Contact</h3>
+              <p>+1 (709) 555-0142</p>
+              <p>hello@memorialdining.ca</p>
+            </div>
+            <div class="socials" aria-label="Social media links">
+              <a href="#" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm10 2H7a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm-5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2.2a2.8 2.8 0 1 0 0 5.6 2.8 2.8 0 0 0 0-5.6zM18.5 6.8a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z"
+                  />
+                </svg>
+              </a>
+              <a href="#" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M13 9h3V6h-3c-2.2 0-4 1.8-4 4v3H6v3h3v5h3v-5h3l1-3h-4v-3c0-.6.4-1 1-1z"
+                  />
+                </svg>
+              </a>
+              <a href="#" aria-label="Twitter">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M19 7.3c.01.17.01.35.01.53 0 5.4-4.1 11.6-11.6 11.6-2.3 0-4.4-.7-6.2-1.8.3.04.6.05.9.05 1.9 0 3.7-.6 5.1-1.7a4.1 4.1 0 0 1-3.8-2.8c.3.04.6.05.9.05.4 0 .8-.05 1.2-.16a4.1 4.1 0 0 1-3.3-4v-.05c.6.34 1.3.55 2 .6a4.1 4.1 0 0 1-1.8-3.4c0-.75.2-1.45.55-2.05a11.6 11.6 0 0 0 8.4 4.3 4.6 4.6 0 0 1-.1-.94 4.1 4.1 0 0 1 7.1-2.8 8.2 8.2 0 0 0 2.6-1 4.1 4.1 0 0 1-1.8 2.3 8.2 8.2 0 0 0 2.4-.65 8.6 8.6 0 0 1-2 2.1z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="map reveal">
+            <iframe
+              title="Map showing Memorial in St. John's, Newfoundland"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23133.524832693733!2d-52.7302896!3d47.5615097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0ca45b74f9f0d3%3A0xd31ea8b6d9d8a2a6!2sSt.%20John's%2C%20NL%2C%20Canada!5e0!3m2!1sen!2sus!4v1699999999999"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              aria-label="Memorial location map"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="logo-mark">M</span>
+          <div>
+            <h3>Memorial</h3>
+            <p>A Taste of the Atlantic</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#reservations">Reservations</a>
+        </div>
+        <div class="footer-meta">
+          <p>Follow the coast. Dine by the sea.</p>
+          <p>© 2026 Memorial, St. John's, NL</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
